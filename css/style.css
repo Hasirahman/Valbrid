@@ -6797,3 +6797,20 @@ Custom CSS
 .pq-results-div .ordering-form{
 	margin-bottom: 30px;
 }
+
+.theme-text-color{ color:#f56800!important;}
+.blt-ul{ font-size:1.6rem; color:#f56800; font-weight:700; padding-right:.5rem; }
+
+ul.blt li:before{
+	content: "";
+	position: absolute; 
+	font-size: 10px;
+	left:30px;
+	color: inherit;
+	line-height: normal;
+	color: var(--primary-color);
+	width: 15px;
+	height: 2px;
+	background: var(--primary-color);
+	margin-top: 15px;
+}
